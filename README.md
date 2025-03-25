@@ -123,24 +123,6 @@ Analisar padrões de ansiedade e depressão usando Google Sheets e Looker Studio
 - Automação do ETL.
 
 
-Apresentação do Case (1h30min)
- Fluxo da Apresentação
-Etapa
-Tempo
-Introdução → Contexto do Case
-10 min
-Extração e Ingestão → Explicação das fontes de dados
-15 min
-Armazenamento e Processamento → Estrutura dos dados
-15 min
-Visualização no Looker Studio → Dashboard ao vivo
-20 min
-Segurança e Mascaramento → Como protegemos os dados
-10 min
-Escalabilidade e Melhorias → Planos para expansão
-10 min
-Conclusão e Perguntas
-
 
 
 
