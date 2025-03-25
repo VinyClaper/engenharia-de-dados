@@ -3,13 +3,11 @@
  Objetivo: Desenvolver uma solução de Engenharia de Dados end-to-end, desde a extração até a visualização, para analisar padrões de ansiedade e depressão.
 
 1️⃣ Extração e Ingestão de Dados
-1.1 Como escolher e extrair os dados?
+1.1 Extração dos dados?
 Antes de tudo, precisamos definir a fonte dos dados. Como estamos analisando ansiedade e depressão, algumas opções incluem:
 🔹 Kaggle (www.kaggle.com)
 Pesquisar: "Mental Health Dataset" ou "Anxiety Depression Dataset".
 Escolher um dataset que tenha as colunas exigidas.
-🔹 Geração de Dados Simulados (Se Necessário)
- Caso os datasets públicos não sejam suficientes, podemos gerar um conjunto de dados baseado em tendências reais.
 
 1.2 Métodos de Ingestão de Dados
 Depois de encontrar os dados, precisamos ingerir essas informações na nossa estrutura.
@@ -25,6 +23,8 @@ Compartilhar com permissões apenas de leitura para segurança.
 2️⃣ Armazenamento de Dados
 2.1 Estruturando os dados
 Os dados devem ser organizados de forma clara e otimizada, garantindo que os campos sigam um padrão.
+
+Exemplo:
 Coluna
 Descrição
 Age
@@ -50,7 +50,7 @@ Nível de estresse (0 a 100)
 
 2.2 Escolhendo a tecnologia de armazenamento
  Opção Principal - Google Sheets (Fácil replicação)
-Simples de usar e integra diretamente com o Looker Studio.
+Simples de usar.
 
 3️⃣ Observabilidade e Monitoramento
 3.1 Como garantir a qualidade dos dados?
@@ -58,7 +58,7 @@ Antes de analisarmos os dados, precisamos monitorá-los para garantir que não h
  Ações no Google Sheets:
   Criar regras de validação para impedir valores inválidos (Ex: Sleep_Hours não pode ser negativo).
   Criar alertas de valores atípicos (Ex: Se Anxiety_Score > 90, destacar em vermelho).
- Monitoramento no Looker Studio:
+ Monitoramento no Power BI:
   Criar gráficos para verificar anomalias nos dados.
   Criar um painel de controle para monitoramento contínuo.
 
@@ -103,12 +103,12 @@ Adicione filtros interativos para faixa etária, nível de estresse e uso de med
 7️⃣ Entregáveis
  Repositório GitHub com documentação.
   README.md com explicação técnica.
-  Dashboard no Looker Studio compartilhado.
+  Dashboard no Power BI compartilhado.
  Formato do README.md
 # Case Engenharia de Dados - Saúde Mental
 
 ##  Objetivo
-Analisar padrões de ansiedade e depressão usando Google Sheets e Looker Studio.
+Analisar padrões de ansiedade e depressão usando Google Sheets e Power BI.
 
 ## 🔹 Arquitetura
 - **Extração**: Kaggle, APIs, Dados Simulados.
@@ -121,8 +121,3 @@ Analisar padrões de ansiedade e depressão usando Google Sheets e Looker Studio
 ## 🚀 Melhorias Futuras
 - Implementação no BigQuery.
 - Automação do ETL.
-
-
-
-
-
